@@ -1,7 +1,7 @@
 import { Link } from "wouter";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { ChevronDown } from "lucide-react";
-import { HeroCanvas } from "@/components/three-animations";
+import { HeroCanvas } from "../components/three-animations";
 
 export default function Home() {
   return (
@@ -41,7 +41,9 @@ export default function Home() {
       </div>
       
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <Link href="/about">
         <ChevronDown className="w-8 h-8 text-gray-400" />
+        </Link>
       </div>
     </section>
   );

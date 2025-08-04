@@ -1,4 +1,6 @@
-import { AboutCanvas } from "@/components/three-animations";
+import { AboutCanvas } from "../components/three-animations";
+import { ChevronDown } from "lucide-react";
+import { Link } from "wouter";
 
 export default function About() {
   const skills = [
@@ -13,6 +15,7 @@ export default function About() {
   ];
 
   return (
+    <>
     <section className="py-20 px-6 mt-20">
       <div className="container mx-auto">
         <div className="text-center mb-16">
@@ -59,5 +62,14 @@ export default function About() {
         </div>
       </div>
     </section>
+    <section className="relative">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <Link href="/projects" >
+        <ChevronDown className="w-8 h-8 text-gray-400" />
+        </Link>
+      </div>
+    </section>
+
+    </>
   );
 }

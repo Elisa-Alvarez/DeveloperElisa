@@ -1,10 +1,10 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, X, Mail } from "lucide-react";
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Github, href: "https://github.com/elisaalvarez211", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/elisa-alvarez", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/elisaalvarez211", label: "Twitter" },
+    { icon: Github, href: "https://github.com/Elisa-Alvarez", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com/in/developer-elisa", label: "LinkedIn" },
+    { icon: X, href: "https://x.com/DeveloperElisa", label: "X" },
     { icon: Mail, href: "mailto:elisaalvarez211@gmail.com", label: "Email" },
   ];
 
@@ -38,7 +38,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            &copy; 2024 Elisa Alvarez. All rights reserved. Built with passion and cutting-edge technology.
+            &copy; 2025 Devleoper Elisa Alvarez. All rights reserved. Built with passion and cutting-edge technology.
           </p>
         </div>
       </div>

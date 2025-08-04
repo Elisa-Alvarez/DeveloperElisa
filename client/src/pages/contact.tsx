@@ -2,15 +2,15 @@ import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { insertContactMessageSchema } from "@shared/schema";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
-import { apiRequest } from "@/lib/queryClient";
-import { ContactCanvas } from "@/components/three-animations";
+import { insertContactMessageSchema } from "../schema";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+import { Textarea } from "../components/ui/textarea";
+import { useToast } from "../hooks/use-toast";
+import { apiRequest } from "../lib/queryClient";
+import { ContactCanvas } from "../components/three-animations";
 import { Mail, Github, Linkedin, Send } from "lucide-react";
-import type { InsertContactMessage } from "@shared/schema";
+import type { InsertContactMessage } from "../schema";
 
 export default function Contact() {
   const { toast } = useToast();
@@ -60,13 +60,13 @@ export default function Contact() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "/in/elisa-alvarez",
+      value: "/in/developer-elisa",
       color: "var(--neon-purple)"
     },
     {
       icon: Github,
       label: "GitHub", 
-      value: "/elisaalvarez211",
+      value: "/Elisa-Alvarez",
       color: "var(--neon-green)"
     }
   ];
@@ -84,7 +84,6 @@ export default function Contact() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          {/* Contact Information */}
           <div className="space-y-8">
             <div className="glass-effect rounded-2xl p-8">
               <h3 className="text-2xl font-bold mb-6 text-[var(--neon-blue)]">Let's Connect</h3>

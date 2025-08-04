@@ -1,6 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { ProjectCanvas } from "@/components/three-animations";
-import { ExternalLink, Github } from "lucide-react";
+import { Button } from "../components/ui/button";
+import { ProjectCanvas } from "../components/three-animations";
+import { ChevronDown, ExternalLink, Github } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Projects() {
   const projects = [
@@ -67,6 +68,7 @@ export default function Projects() {
   };
 
   return (
+    <>
     <section className="py-20 px-6 bg-gray-800 mt-20">
       <div className="container mx-auto">
         <div className="text-center mb-16">
@@ -132,7 +134,7 @@ export default function Projects() {
         <div className="text-center mt-16">
           <Button
             className="bg-[var(--neon-blue)] text-gray-900 px-8 py-4 font-semibold hover:bg-opacity-80 transition-all duration-300"
-            onClick={() => window.open("https://github.com/elisaalvarez211", "_blank")}
+            onClick={() => window.open("https://github.com/Elisa-Alvarez", "_blank")}
           >
             View All Projects on GitHub
             <Github className="w-5 h-5 ml-2" />
@@ -140,5 +142,13 @@ export default function Projects() {
         </div>
       </div>
     </section>
+    <section className="relative">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <Link href="/contact">
+        <ChevronDown className="w-8 h-8 text-gray-400" />
+        </Link>
+      </div>
+    </section>
+    </>
   );
 }
