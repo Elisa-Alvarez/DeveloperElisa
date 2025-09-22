@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="text-center md:text-left mb-6 md:mb-0">
             <div className="text-2xl font-bold text-gradient mb-2">Elisa Alvarez</div>
-            <p className="text-gray-300">Full Stack Developer</p>
+            <p className="text-gray-300">Project Manager</p>
           </div>
           
           <div className="flex space-x-6">
@@ -38,7 +38,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            &copy; 2025 Devleoper Elisa Alvarez. All rights reserved. Built with passion and cutting-edge technology.
+            &copy; 2025 Elisa Alvarez. All rights reserved. Built with passion and cutting-edge technology.
           </p>
         </div>
       </div>

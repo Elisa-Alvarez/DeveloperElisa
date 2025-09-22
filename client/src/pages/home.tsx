@@ -18,7 +18,7 @@ export default function Home() {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Full Stack Developer crafting immersive digital experiences with cutting-edge technologies
+            Empowering collaboration to create innovative digital experiences with cutting-edge technologies
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

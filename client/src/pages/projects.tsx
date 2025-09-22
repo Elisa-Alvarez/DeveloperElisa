@@ -76,7 +76,7 @@ export default function Projects() {
             My <span className="text-gradient">Projects</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A collection of professional and personal projects demonstrating my skills across the full stack
+            A collection of professional and personal projects demonstrating my skills across the full stack development and project management.
           </p>
         </div>
 

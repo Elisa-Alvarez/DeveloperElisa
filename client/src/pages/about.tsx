@@ -6,12 +6,40 @@ export default function About() {
   const skills = [
     "React.js",
     "Node.js", 
+    "RESTful APIs",
     "Three.js",
     "TypeScript",
-    "Python",
     "PostgreSQL",
-    "AWS",
-    "Docker"
+    "SQL",
+    "CI/CD",
+    "Git & GitHub",
+    "HTML & CSS",
+    "Docker",
+    "Asana",
+    "Jira",
+    "Figma",
+    "Slack",
+    "Trello",
+    "Notion",
+    "MS Project",
+    "Agile & Scrum",
+    "Team Collaboration",
+    "Critical Thinking",
+    "Adaptability",
+    "Leadership",
+    "Attention to Detail",
+    "Conflict Resolution",
+    "Risk Management",
+    "Documentation",
+    "Google Workspace",
+    "Confluence",
+    "Miro",
+    "Lucidchart",
+    "Monday.com",
+    "ClickUp",
+    "Tableau",
+    "Agile Methodologies",
+    "Project Management"
   ];
 
   return (
@@ -38,17 +66,18 @@ export default function About() {
             <div className="glass-effect rounded-2xl p-8">
               <h3 className="text-2xl font-bold mb-4 text-[var(--neon-blue)]">Who I Am</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                I'm a full-stack engineer with a passion for building modern, animated web applications using cutting-edge technologies. 
-                With expertise in React, Node.js, Three.js, and more, I create digital experiences that are both functional and visually stunning.
+               Certified in Google Project Management, I bring strong skills in organizing projects, 
+               collaborating across teams, and keeping deadlines on track. With experience using tools like Jira, 
+               Asana, and MS Project, I’m passionate about turning ideas into results while fostering collaboration and efficiency.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, 
+                When I'm not project managing, you'll find me exploring new technologies, contributing to open-source projects, 
                 or experimenting with 3D graphics and animations.
               </p>
             </div>
 
             <div className="glass-effect rounded-2xl p-8">
-              <h3 className="text-2xl font-bold mb-6 text-[var(--neon-purple)]">Technical Skills</h3>
+              <h3 className="text-2xl font-bold mb-6 text-[var(--neon-purple)]">Skills</h3>
               <div className="grid grid-cols-2 gap-4">
                 {skills.map((skill) => (
                   <div key={skill} className="flex items-center space-x-3">
